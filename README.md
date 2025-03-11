@@ -170,6 +170,15 @@ for(int[] edge: edgeList){
 }
 ```
 
+Traversal of a HashMap using foreach
+```
+for (Map.Entry<String, String> entry : mp.entrySet()) {
+    String key = entry.getKey();
+    String value = entry.getValue();
+    System.out.println("Key=" + key + ", Value=" + value);
+}
+```
+
 
 ### Queue Interface
 
